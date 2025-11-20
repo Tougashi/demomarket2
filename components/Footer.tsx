@@ -75,7 +75,7 @@ export default function Footer() {
                <span className="w-4 inline-block">🕒</span> Jam 09:00 - 18:00 WIB
              </p>
              <p className="text-gray-600 flex items-center gap-2 text-sm">
-               <span className="w-4 inline-block">✉️</span> Email : customercare@erajaya.com
+               <span className="w-4 inline-block">✉️</span> Email : customercare@pesonagadget.com
              </p>
              <p className="text-gray-600 flex items-center gap-2 text-sm">
                <span className="w-4 inline-block">🎧</span> Contact Center : <span className="text-blue-600">1500372</span>
