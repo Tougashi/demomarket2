@@ -1,6 +1,7 @@
 import { FaInstagram, FaFacebookF, FaYoutube, FaTiktok, FaWhatsapp, FaApple } from 'react-icons/fa';
 
 export default function Footer() {
+  const currentYear = new Date().getFullYear();
   return (
     <footer className="bg-white pt-12 pb-8 border-t border-gray-100 text-sm">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl">
@@ -69,51 +70,27 @@ export default function Footer() {
           </div>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8 border-t border-gray-100 pt-6 md:pt-8">
-          <div className="space-y-3 md:space-y-4">
-             <p className="text-gray-600 flex items-center gap-2 text-sm">
-               <span className="w-4 inline-block">🕒</span> Jam 09:00 - 18:00 WIB
-             </p>
-             <p className="text-gray-600 flex items-center gap-2 text-sm">
-               <span className="w-4 inline-block">✉️</span> Email : customercare@pesonagadget.com
-             </p>
-             <p className="text-gray-600 flex items-center gap-2 text-sm">
-               <span className="w-4 inline-block">🎧</span> Contact Center : <span className="text-blue-600">1500372</span>
-             </p>
-             <p className="text-gray-600 flex items-center gap-2 text-sm">
-               <span className="w-4 inline-block"><FaWhatsapp /></span> WhatsApp : <span className="text-blue-600">0812 9077 7722</span>
-             </p>
-
-             <div className="pt-3 md:pt-4">
-               <h5 className="font-bold mb-2 text-sm">Layanan Pengaduan Konsumen</h5>
-               <p className="text-gray-600 text-sm">Direktorat Jenderal Perlindungan Konsumen dan Tertib Niaga</p>
-               <p className="text-gray-600 text-sm">Kementerian Perdagangan Republik Indonesia</p>
-               <p className="text-gray-600 mt-2 text-sm">WhatsApp Ditjen PKTN:</p>
-             </div>
-          </div>
-
-          <div className="flex flex-col items-start md:items-end gap-4 md:gap-6">
-             <div className="flex gap-4 text-gray-600">
-               <a href="#" className="hover:text-blue-600 transition-colors"><FaFacebookF size={20} /></a>
-               <a href="#" className="hover:text-blue-600 transition-colors"><FaInstagram size={20} /></a>
-               <a href="#" className="hover:text-blue-600 transition-colors"><FaYoutube size={20} /></a>
-               <a href="#" className="hover:text-blue-600 transition-colors"><FaTiktok size={20} /></a>
-               <a href="#" className="hover:text-blue-600 transition-colors"><FaWhatsapp size={20} /></a>
-             </div>
-
-             <div className="w-full md:w-auto md:text-right">
-               <h5 className="font-bold mb-3 md:mb-4 text-sm">Metode Pembayaran</h5>
-               <div className="flex flex-wrap gap-2 md:justify-end">
-                  <span className="px-2 py-1 border rounded text-xs font-bold text-blue-600">BCA</span>
-                  <span className="px-2 py-1 border rounded text-xs font-bold text-orange-600">BNI</span>
-                  <span className="px-2 py-1 border rounded text-xs font-bold text-red-600">CIMB</span>
-                  <span className="px-2 py-1 border rounded text-xs font-bold text-blue-500">Mandiri</span>
-                  <span className="px-2 py-1 border rounded text-xs font-bold text-green-600">Gopay</span>
-                  <span className="px-2 py-1 border rounded text-xs font-bold text-purple-600">OVO</span>
-                  <span className="px-2 py-1 border rounded text-xs font-bold text-blue-400">Visa</span>
-                  <span className="px-2 py-1 border rounded text-xs font-bold text-red-500">Mastercard</span>
-               </div>
-             </div>
+        <div className="border-t border-gray-100 pt-6 md:pt-8">
+          <div className="flex flex-col gap-4 md:gap-6 text-center md:text-left text-gray-600">
+            <div className="flex flex-col md:flex-row items-center justify-between gap-4">
+              <div className="flex items-center gap-3 text-slate-900">
+                <span className="text-xl md:text-2xl font-bold tracking-tight">Pesona Gadget</span>
+                <div className="border border-gray-300 rounded px-2 py-0.5 flex items-center gap-2 text-[10px] font-semibold uppercase tracking-widest text-gray-600">
+                  <FaApple size={12} />
+                  <span>Premium Partner</span>
+                </div>
+              </div>
+              <div className="flex items-center justify-center gap-4 text-gray-500 text-lg">
+                <a href="#" className="hover:text-blue-600 transition-colors" aria-label="Facebook"><FaFacebookF /></a>
+                <a href="#" className="hover:text-blue-600 transition-colors" aria-label="Instagram"><FaInstagram /></a>
+                <a href="#" className="hover:text-blue-600 transition-colors" aria-label="YouTube"><FaYoutube /></a>
+                <a href="#" className="hover:text-blue-600 transition-colors" aria-label="TikTok"><FaTiktok /></a>
+                <a href="#" className="hover:text-blue-600 transition-colors" aria-label="WhatsApp"><FaWhatsapp /></a>
+              </div>
+            </div>
+            <p className="text-xs md:text-sm text-gray-500">
+              © {currentYear} Pesona Gadget. All rights reserved.
+            </p>
           </div>
         </div>
       </div>
