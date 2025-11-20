@@ -49,7 +49,7 @@ export default function Hero() {
   }, []);
 
   return (
-    <section className="relative w-full h-[400px] md:h-[450px] overflow-hidden bg-white mt-10 md:mt-0">
+    <section className="relative w-full h-[450px] md:h-[450px] overflow-hidden bg-white mt-10 md:mt-0">
       
       <div className="absolute inset-0 w-full max-w-6xl mx-auto px-4 flex items-center justify-center h-full">
         <AnimatePresence mode='wait'>
