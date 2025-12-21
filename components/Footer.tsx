@@ -32,9 +32,9 @@ export default function Footer() {
           </div>
 
           <div>
-            <h4 className="font-bold text-slate-900 mb-4 md:mb-6 text-sm">Tentang Pesona Gadget</h4>
+            <h4 className="font-bold text-slate-900 mb-4 md:mb-6 text-sm">Tentang Radja iPhone</h4>
             <ul className="space-y-3 md:space-y-4 text-gray-600 text-sm">
-              <li><a href="#" className="hover:text-blue-600 transition-colors">Tentang Pesona Gadget</a></li>
+              <li><a href="#" className="hover:text-blue-600 transition-colors">Tentang Radja iPhone</a></li>
               <li><a href="#" className="hover:text-blue-600 transition-colors">Hubungi kami</a></li>
               <li><a href="#" className="hover:text-blue-600 transition-colors">Yang sering ditanyakan</a></li>
               <li><a href="#" className="hover:text-blue-600 transition-colors">Cari toko</a></li>
@@ -74,7 +74,7 @@ export default function Footer() {
           <div className="flex flex-col gap-4 md:gap-6 text-center md:text-left text-gray-600">
             <div className="flex flex-col md:flex-row items-center justify-between gap-4">
               <div className="flex items-center gap-3 text-slate-900">
-                <span className="text-xl md:text-2xl font-bold tracking-tight">Pesona Gadget</span>
+                <span className="text-xl md:text-2xl font-bold tracking-tight">Radja iPhone</span>
                 <div className="border border-gray-300 rounded px-2 py-0.5 flex items-center gap-2 text-[10px] font-semibold uppercase tracking-widest text-gray-600">
                   <FaApple size={12} />
                   <span>Premium Partner</span>
@@ -89,7 +89,7 @@ export default function Footer() {
               </div>
             </div>
             <p className="text-xs md:text-sm text-gray-500">
-              © {currentYear} Pesona Gadget. All rights reserved.
+              © {currentYear} Radja iPhone. All rights reserved.
             </p>
           </div>
         </div>

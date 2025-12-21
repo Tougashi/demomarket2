@@ -14,7 +14,7 @@ export default function Navbar() {
       <div className="bg-blue-600 text-white text-xs md:text-sm py-2 text-center px-4">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl flex justify-between items-center md:justify-center">
           <p className="truncate flex-1 md:flex-none">
-            Waspada terhadap upaya penipuan yang mengatasnamakan Pesona Gadget. Info selengkapnya, <span className="font-bold cursor-pointer hover:underline">klik di sini</span>
+            Waspada terhadap upaya penipuan yang mengatasnamakan Radja iPhone. Info selengkapnya, <span className="font-bold cursor-pointer hover:underline">klik di sini</span>
           </p>
           <FiChevronRight className="md:hidden shrink-0 ml-2" />
         </div>
@@ -34,7 +34,7 @@ export default function Navbar() {
 
           {/* Logo */}
           <Link href="/" className="flex items-center gap-1.5 md:gap-2 shrink-0">
-            <span className="text-xl sm:text-2xl md:text-3xl font-bold tracking-tighter">Pesona Gadget</span>
+            <span className="text-xl sm:text-2xl md:text-3xl font-bold tracking-tighter">Radja iPhone</span>
             <div className="border border-gray-300 rounded px-1 py-0.5 flex items-center gap-1">
               <FaApple size={10} className="md:w-3 md:h-3" />
               <div className="flex flex-col leading-none">

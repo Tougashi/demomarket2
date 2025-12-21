@@ -5,8 +5,8 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Pesona Gadget Mockup - Apple Premium Reseller",
-  description: "Mockup of Pesona Gadget website using Next.js",
+  title: "Radja iPhone Mockup - Apple Premium Reseller",
+  description: "Mockup of Radja iPhone website using Next.js",
 };
 
 export default function RootLayout({

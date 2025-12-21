@@ -47,7 +47,7 @@ export default function ServiceInfo() {
             <div className="w-full md:w-1/2 h-64 md:h-80 relative">
               <Image
                 src="https://images.unsplash.com/photo-1531545514256-b1400bc00f31?q=80&w=1000&auto=format&fit=crop"
-                alt="Pesona Gadget Staff"
+                alt="Radja iPhone Staff"
                 fill
                 className="object-cover"
               />
@@ -67,7 +67,7 @@ export default function ServiceInfo() {
             <div className="bg-gray-50 rounded-2xl overflow-hidden flex flex-col-reverse md:flex-row">
               <div className="w-full md:w-1/2 p-10 flex flex-col justify-center items-center md:items-start text-center md:text-left">
                 <h3 className="text-2xl font-bold text-slate-900 mb-4">Toko terdekat</h3>
-                <p className="text-sm text-slate-600 mb-6">Temukan Pesona Gadget di dekatmu.</p>
+                <p className="text-sm text-slate-600 mb-6">Temukan Radja iPhone di dekatmu.</p>
                 <button className="px-8 py-2 border border-blue-600 text-blue-600 rounded-full font-bold hover:bg-blue-50 transition-colors text-sm">
                   Cari toko
                 </button>
@@ -94,7 +94,7 @@ export default function ServiceInfo() {
               </div>
               <div className="w-full md:w-1/2 p-10 flex flex-col justify-center items-center md:items-end text-center md:text-right">
                 <h3 className="text-2xl font-bold text-slate-900 mb-4">Ikuti kelas</h3>
-                <p className="text-sm text-slate-600 mb-6">Temukan berbagai kelas di Pesona Gadget</p>
+                <p className="text-sm text-slate-600 mb-6">Temukan berbagai kelas di Radja iPhone</p>
                 <button className="px-8 py-2 border border-blue-600 text-blue-600 rounded-full font-bold hover:bg-blue-50 transition-colors text-sm">
                   Jadwalkan
                 </button>
